@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVAAN - Where Identity Becomes Statement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @font-face {
+            font-family: 'ARGUE DEMO REGUL';
+            src: url('fonts/ARGUE_demo.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="star-logo">
+                    <img src="images/t.svg" alt="Logo" style="height: 28px;">
+                </div>
+                <span class="brand-name">REVAAN</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#collection" class="nav-link">Collection</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <i class="fas fa-search nav-icon"></i>
+                <i class="fas fa-shopping-bag nav-icon">
+                    <span class="cart-count">0</span>
+                </i>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="background-text">
+            <div class="text-row">
+                <span>Wear your confidence</span>
+                <span>Wear your confidence</span>
+                <span>Wear your confidence</span>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="model-container baseline-animate">
+                <img src="images/model.png" alt="Fashion Model" class="model-image">
+            </div>
+            <div class="hero-text-overlay baseline-animate">
+                <p>Discover a curated selection of timeless designs and modern trends crafted to elevate your wardrobe. From statement pieces to everyday essentials, find the perfect fit that defines your unique style.</p>
+                <button class="shop-now-btn">Shop Now &gt;&gt;</button>
+            </div>
+            <div class="hero-catalog baseline-animate">
+                <div class="catalog-item">
+                    <img src="images/m.png" alt="Catalog item 1">
+                </div>
+                <div class="catalog-item">
+                    <img src="images/m2.png" alt="Catalog item 2">
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Brand Statement -->
+    <section class="brand-statement">
+        <div class="container">
+            <div class="statement-content">
+                <h2 class="statement-title">MORE THAN FASHION.<br>A MOVEMENT.</h2>
+                <p class="statement-text">Revaan lives at the intersection of streetwear and high-art aesthetics, merging cultural depth with modern design to create pieces that are personal statements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Collection -->
+    <section class="collection" id="collection">
+        <div class="container">
+            <h2 class="section-title">FEATURED COLLECTION</h2>
+            <div class="collection-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/m.png">
+                        <div class="product-overlay">
+                            <button class="quick-view">QUICK VIEW</button>
+                            <button class="add-to-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">T-shirt</h3>
+                        <p class="product-price">₹1200</p>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/m2.png" alt="Urban Edge Hoodie">
+                        <div class="product-overlay">
+                            <button class="quick-view">QUICK VIEW</button>
+                            <button class="add-to-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">URBAN EDGE HOODIE</h3>
+                        <p class="product-price">₹1200</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/m3.png" alt="Statement Sneakers">
+                        <div class="product-overlay">
+                            <button class="quick-view">QUICK VIEW</button>
+                            <button class="add-to-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">cool t-shirt</h3>
+                        <p class="product-price">₹1200</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">JOIN THE REBELLION</h2>
+                <p class="newsletter-text">Be the first to know about new drops, exclusive releases, and rebel culture updates.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" class="newsletter-input">
+                    <button class="newsletter-button">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="star-logo">
+                            <img src="images/t.svg" alt="Logo" style="height: 28px;">
+                        </div>
+                        <span class="brand-name">REVAAN</span>
+                    </div>
+                    <p class="footer-text">Where identity becomes statement, and style creates impact.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>SHOP</h4>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Streetwear</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>SUPPORT</h4>
+                    <ul>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 REVAAN. All rights reserved. Rebellion with purpose.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart" id="close-cart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-content">
+            <p class="empty-cart">Your cart is empty</p>
+        </div>
+        <div class="cart-footer">
+            <button class="checkout-button">CHECKOUT</button>
+        </div>
+    </div>
+
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
